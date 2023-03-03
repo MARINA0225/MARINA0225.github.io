@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="#">
+        <table border="0">
+            <thead>
+                <tr>
+                    <th colspan="4"><h1>Travel reservation form</h1></th>
+                </tr>
+                <tr>
+                    <th colspan="4"><h3>*denotes mandatory</h3></th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td><label for="first-name">First Name:</label></td>
+                    <td><input type="text" name="first_name" id="first-name" required
+                        placeholder="First Name"></td>
+                    <td><label for="last-name">Last Name:</label></td>
+                    <td><input type="text" name="last_name" id="last-name" required
+                        placeholder="Last Name"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email adress*:</label></td>
+                    <td><input type="email" name="email" id="email" required
+                        placeholder="Email adress"></td>
+                    <td><label for="select-tour-package*">Select Tour Package*:</label></td>
+                    <td><select name="select_tour_package*" id="select-tour-package*">
+                        <option value="1 person">1 Person</option>
+                        <option value="2 person">2 People</option>
+                        <option value="3 people">3 People</option>
+                        <option value="4 people">4 People</option></td>
+                </tr>
+                <tr>
+                    <td><label for="arrival-date*">Arrival date*:</label></td>
+                    <td><input type="date" name="date_birth" id="date-birth"></td>
+                    <td><label for="number-os-persons*">Number of persons*:</label></td>
+                    <td><input type="number" name="number" id="number" required
+                        placeholder="Number of persons"></td>
+                </tr>
+                <tr>
+                    <td><label for="what-would-you-want-to-avail?*">What would you want to avail?*:</label></td>
+                    <td><input type="checkbox" name="avail" id="bording" value="bording">
+                        <label for="bording">Bording</label></td>
+                    <td><input type="checkbox" name="avail" id="fooding" value="fooding">
+                        <label for="fooding">Fooding</label></td>
+                    <td><input type="checkbox" name="avail" id="sightseeing" value="sightseeing">
+                        <label for="sightseeing">Sight seeing</label></td>
+                <tr>
+                    <td colspan="2"><label for="discount-coupon-code">Discount coupon code:</label></td>
+                    <td colspan="2"><input type="text" name="discount_coupon_code" id="discount-coupon-code" required
+                        placeholder="Discount coupon code"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label for="terms-and-conditions">Terms and conditions*</label></td>
+                    <td><input type="radio" name="status" id="i-agree" value="i-agree">
+                        <label for="i-agree">I agree</label></td>
+                    <td><table><input type="radio" name="status" id="i-disagree" value="i-disagree">
+                        <label for="i-disagree">I disagree</label></table></td>
+                </tr>
+
+            </tbody>
+
+        </table>
+        <br>
+        <br>
+        <input type="submit" name="submit" id="submit" value="submit">
+    </form>
+</body>
+</html>

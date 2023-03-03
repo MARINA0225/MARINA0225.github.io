@@ -1,0 +1,48 @@
+h2{
+    color: blueviolet;
+}
+
+/* *{
+    color: gray;
+} */
+
+p{
+    color: green;
+}
+
+.class-name{
+    background-color: rgb(145, 33, 33);
+    color: darkgray;
+    border: solid 1px yellow;
+}
+.container{
+    border: solid 1px #ff0000;
+}
+.table-red{
+    border: solid 1px #ff0000;
+}
+#p1{
+    color: green;
+}
+#p2{
+    color: purple;
+}
+h3.header-1{
+    color:red;
+}
+h3{
+    color: blue;
+}
+
+ul li{
+    color: blue;
+}
+.nav-links li{
+    color: red;
+}
+.nav-links .nav-item{
+    color: green;
+}
+.nav-links .nav-item a{
+    color: yellow;
+}

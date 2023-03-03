@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.header0{
+    width: 450px;
+    border: 1px solid black;
+    padding: 5px 0px 0px 0px;
+}
+
+.header1{
+    width: 428px;
+    height: 510px;
+    border: 1px solid white;
+    padding: 5px 5px 0px 15px;
+    background-color: white;
+}
+
+.header2{
+    border-bottom: 2px solid rgb(231, 230, 230);
+}
+
+h3{
+    font-size: small;
+}
+
+input{
+    background-color: rgb(231, 230, 230);
+    width: 100%;
+    padding: 10px 5px;
+    border: 0px;
+    margin: 5px 15px 5px 5px;
+    display: inline-block;
+}
+
+form{
+    padding: 5px 25px 5px 0px;
+    font-weight: bold;
+}
+
+.header3{
+    border-top:2px solid rgb(231, 230, 230);
+    padding: 10px;
+}
+
+.botton{
+    background-color: rgb(60, 195, 60);
+    color:white;
+}
+
+.header4{
+    padding: 15px 0px 15px 0px;
+    background-color: rgb(231, 230, 230);
+    text-align: center;
+}

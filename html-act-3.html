@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="#" method="#">
+
+    <table border="0">
+        <thead>
+            <tr>
+                <th colspan="2"><h1>Personal Details</h1></th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>
+                    <label for="salutation">Salutation</label>
+                </td>
+                <td>
+                    <select name="device" id="device">
+                        <option value="--none--">--None--</option>
+                        <option value="mr.">Mr.</option>
+                        <option value="ms.">Ms.</option>
+                        <option value="mrs.">Mrs.</option>
+                    </select> 
+                </td>
+            </tr>
+        <tr>
+            <td><label for="first-name">First Name:</label></td>
+            <td><input type="text" name="first_name" id="first-name" required
+                placeholder="First Name"></td>
+        </tr>
+        <tr>
+            <td><label for="last-name">Last Name:</label></td>
+            <td><input type="text" name="last_name" id="last-name" placeholder="Last Name"></td>
+        </tr>
+            <td><label for="gender">Gender:</label></td>
+            <td><input type="radio" name="status" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="status" id="female" value="female">
+            <label for="female">Female</label></td>
+        <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="text" name="email" id="email" required
+                placeholder="Email"></td>
+                
+        </tr>
+        <tr>
+            <td><label for="date-birth">Date of Birth:</label></td>
+            <td><input type="date" name="date_birth" id="date-birth"></td>
+        </tr>
+        <tr>
+            <td><label for="adress">Adress:</label></td>
+            <td> <textarea name="bio" id="bio" cols="20" rows="5" placeholder="Address"></textarea></td>
+        </tr>
+        </tbody>
+        </table>
+        <br>
+        <br>
+        <input type="submit" name="submit" id="submit" value="submit">
+       
+    
+    </form>
+
+   
+</body>
+</html>
